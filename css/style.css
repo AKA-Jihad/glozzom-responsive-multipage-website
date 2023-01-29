@@ -1,0 +1,93 @@
+/* Navigation Section */
+.navbar{
+    background: #000;
+}
+/* Slider Section */
+.carousel-item{
+    height: 450px;
+}
+/* Home icon section */
+#homeicon .fa{
+    font-size: 50px;
+}
+/* Get Started Section  */
+#getstarted{
+    position: relative;
+}
+#getstarted .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/* Home Video Section */
+#home-video{
+    position: relative;
+}
+
+#home-video .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#home-video .fa{
+    font-size: 50px;
+    color: #ff0000;
+}
+#home-video .fa:hover{
+    font-size: 50px;
+    color: #a00404;
+}
+/* Gallery Section */
+#gallery img{
+    min-height: 250px;
+}
+/* Footer Section */
+#footer{
+    background: #000;
+}
+#footer .hover{
+    color: white;
+}
+#footer .hover:hover{
+    color: #FFC107;
+    transition: 0.5s;
+}
+
+/* About Testimonial */
+#testimonial .slick-prev::before{
+    color: #000;
+}
+#testimonial .slick-next::before{
+    color: #000;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; 
+    }
+}
+
+@media (max-height: 576){
+#getstarted {
+    min-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; 
+}
+  #getstarted {
+    min-height: 400px; 
+    } 
+}
